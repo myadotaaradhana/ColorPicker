@@ -1,0 +1,31 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width:100px;
+    height: 100px;
+    border: 2px solid black;
+    outline: none;
+}
+button:hover{
+ cursor: pointer;
+ opacity: 0.9;;
+}
+#btn__red{
+    background-color: rgb(255, 0, 0);
+}
+#btn__blue{
+    background-color: rgb(0, 4, 255);
+}
+#btn__green{
+    background-color: rgb(23, 255, 120);
+}
+#btn__yellow{
+    background-color: rgb(255, 251, 0);
+}
